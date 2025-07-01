@@ -1,0 +1,6 @@
+flask
+prophet
+huggingface_hub
+joblib
+pandas
+gunicorn
