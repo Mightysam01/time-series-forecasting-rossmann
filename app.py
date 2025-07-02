@@ -6,7 +6,10 @@ import pandas as pd
 import joblib
 import os
 
+from flask_cors import CORS
+
 app = Flask(__name__)
+CORS(app, origins="*")
 
 HF_REPO_ID = "MLwithSam/rossmann-forecast-models"
 CACHE_DIR = "./hf_models_cache"
