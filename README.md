@@ -9,6 +9,14 @@ This project predicts daily sales for Rossmann retail stores using Facebook Prop
 
 ---
 
+## Hosting
+
+- Frontend: [React on Vercel](time-series-forecasting-rossmann.vercel.app)
+- Backend: [Flask on Render](https://time-series-forecasting-rossmann.onrender.com)
+- Models: [Hugging Face Model Repo](https://huggingface.co/MLwithSam/rossmann-forecast-models)
+
+---
+
 ## What This App Does
 
 - Accepts a **store ID** and **forecast period** (e.g. 30 days)
@@ -43,14 +51,6 @@ POST /forecast
 ## Frontend
 
 Built with React (`create-react-app`). Talks to the Flask API on Render via fetch. Hosted live using **Vercel**.
-
----
-
-## Hosting
-
-- Frontend: [React on Vercel](time-series-forecasting-rossmann.vercel.app)
-- Backend: [Flask on Render](https://time-series-forecasting-rossmann.onrender.com)
-- Models: [Hugging Face Model Repo](https://huggingface.co/MLwithSam/rossmann-forecast-models)
 
 ---
 

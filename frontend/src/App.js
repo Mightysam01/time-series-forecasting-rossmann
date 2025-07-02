@@ -111,7 +111,7 @@ export default function App() {
 
       <footer className="footer">
         <p>
-          Project by <a href="https://github.com/Mightysam01/time-series-forecasting-rossmann" target="_blank" rel="noopener noreferrer">Mightysam01</a> | 
+          Project by <a href="https://github.com/Mightysam01/time-series-forecasting-rossmann" target="_blank" rel="noopener noreferrer">Mightysam01 </a> | 
           Models hosted on <a href="https://huggingface.co/MLwithSam/rossmann-forecast-models" target="_blank" rel="noopener noreferrer">Hugging Face</a>
         </p>
       </footer>
