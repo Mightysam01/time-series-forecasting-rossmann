@@ -32,7 +32,7 @@ export default function App() {
     }
 
     try {
-      const res = await fetch('http://localhost:5000/forecast', {
+      const res = await fetch('https://time-series-forecasting-rossmann.onrender.com/forecast', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({ store_id: numericStoreId, days: days })

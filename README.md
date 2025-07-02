@@ -48,9 +48,9 @@ Built with React (`create-react-app`). Talks to the Flask API on Render via fetc
 
 ## Hosting
 
-- Backend: [Flask on Render](https://render.com)
+- Frontend: [React on Vercel](time-series-forecasting-rossmann.vercel.app)
+- Backend: [Flask on Render](https://time-series-forecasting-rossmann.onrender.com)
 - Models: [Hugging Face Model Repo](https://huggingface.co/MLwithSam/rossmann-forecast-models)
-- Frontend: [React on Vercel](https://vercel.com)
 
 ---
 
@@ -63,17 +63,11 @@ Built with React (`create-react-app`). Talks to the Flask API on Render via fetc
 ├── frontend/
 │   ├── public/
 │   ├── src/
-│   │   ├── App.jsx
+│   │   ├── App.js
 │   │   ├── App.css
 ├── saved_models/ (optional for local runs)
+├── rossmann_forecasting_multistore.ipynb
 ```
-
----
-
-## Status
-
-MVP complete  
-Ready for extension with charts, CSV upload, or dashboards
 
 ---
 
